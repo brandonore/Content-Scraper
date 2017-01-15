@@ -1,0 +1,17 @@
+{
+  "name": "content-scraper",
+  "version": "1.0.0",
+  "description": "Content Scraper for http://shirts4mike.com/ Scrapes details for all t-shirts on the website and saves them to a CSV file.",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Ore",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "json2csv": "^3.7.3",
+    "request": "^2.79.0"
+  }
+}
